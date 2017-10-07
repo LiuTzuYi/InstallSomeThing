@@ -1,2 +1,6 @@
+一開始初始化 Visual Studio Code 的 Git 環境
 git config --global user.email "liutzuyi@gmail.com"
 git config --global user.name "Liutzuyi"
+
+加入遠端 repository
+git remote add origin https://github.com/LiuTzuYi/InstallSomeThing.git
