@@ -1,0 +1,9 @@
+sudo gedit /etc/profile
+
+export JAVA_HOME=/usr/lib/jdk/jdk-9 
+export JRE_HOME=/usr/lib/jdk/jdk-9/jre 
+export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
+export CLASSPATH=$CLASSPATH:.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
+
+source /etc/profile
+
