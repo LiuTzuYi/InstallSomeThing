@@ -2,7 +2,7 @@ sudo gedit /etc/profile
 
 export JAVA_HOME=/usr/lib/jdk/jdk-9.0.1
 export PATH=$JAVA_HOME/bin:$PATH
-export CLASSPATH=$CLASSPATH:.:$JAVA_HOME/lib
+export CLASSPATH=.:$JAVA_HOME/lib
 
 source /etc/profile
 
